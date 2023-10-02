@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forbesbaltics</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleNav() {
+            var expandNav = document.querySelector('.expandMobileNav');
+            expandNav.style.display = (expandNav.style.display === 'none' || expandNav.style.display === '') ? 'block' : 'none';
+        }
+    </script>
 </head>
 <body>
    
@@ -62,13 +68,32 @@
 <div class="mobileNav">
 <ul>
     <li> <img src="https://biswajitmee.github.io/forbes/logo-black.png"> </li>    
-    <li> <img src="https://biswajitmee.github.io/forbes/nav-icon.svg"> </li>
-    <li> <img src="https://biswajitmee.github.io/forbes/search.svg"> </li>
+    <li > <img src="https://biswajitmee.github.io/forbes/nav-icon.svg" id="openMobileNav"  onclick="toggleNav()"> </li>
+    <li > <img src="https://biswajitmee.github.io/forbes/search.svg"> </li>
 </ul>
 </div>
 
 
-
+<div class="expandMobileNav">
+    <div class="mobileNav">
+        <ul>
+            <li> <img src="https://biswajitmee.github.io/forbes/Forbes_logo.svg"> </li>    
+            <li > <img src="https://biswajitmee.github.io/forbes/nav-icon.svg" id="openMobileNav"  onclick="toggleNav()"> </li>
+   
+        </ul>
+        </div>
+    <ul>
+        <li> <a href="#">НОВОСТИ</a></li>
+                        <li><a href="#">ПРЕДПРИНИМАТЕЛИ</a></li>
+                        <li><a href="#">РЕЙТИНГИ</a></li>
+                        <li><a href="#">ТЕХНОЛОГИИ</a></li>
+                        <li><a href="#">СРЕДА</a></li>
+                        <li><a href="#">ДЕНЬГИ</a></li>
+                        <li><a href="#">МНЕНИЯ</a></li>
+                        <li><a href="#">FORBESLIFE</a></li>
+                        <li> #COVID-19</li>
+    </ul>
+</div>
 
 
 
@@ -155,5 +180,5 @@
 
     </footer>
 </body>
-
+ 
 </html>

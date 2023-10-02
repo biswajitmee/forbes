@@ -125,6 +125,11 @@ nav{ background-color: #fff;  }
 
 .responsiveImg{ width: 100%;}
 
+.expandMobileNav {
+    display: none;  
+}
+
+
  
   @media (max-width: 850px) { 
 
@@ -171,9 +176,6 @@ nav{ background-color: #fff;  }
           
         
           }
-
-
-
 
 
           .topBar .rightSide{ float: left;}
@@ -250,5 +252,21 @@ nav{ background-color: #fff;  }
           
         
           }
+
+
+          .expandMobileNav {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            color: #fff;
+            top: 0;
+            padding: 15px;
+            font-size: 20px;
+            list-style: none;
+        }
+        
+.expandMobileNav ul{ list-style: none; }
+.expandMobileNav ul li{  padding: 8px;}
 
       }
