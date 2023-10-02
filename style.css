@@ -1,0 +1,167 @@
+ 
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .topFixed{ width: 100%; position: fixed;}
+ .p-5{ padding: 5px;}
+
+ .p-15{ padding: 15px;}
+
+ .p-25{ padding: 25px;}
+ .pt-55{ padding-top: 55px;}
+ 
+.heading-content{ text-align: left;}
+nav{ background-color: #fff;  }
+
+  .topBar {
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+ 
+  }
+  .logo{ 
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top:10px;   
+    z-index: 1; }
+
+ 
+.topBar .rightSide { float: right; }
+
+
+  .leftSide ul,
+  .rightSide ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .leftSide ul li,
+  .rightSide ul li {  
+    border-right: 1px dotted #797979;
+    padding: 15px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .Container {
+    max-width: 1200px;  
+    margin: 0 auto;    
+   
+  }
+  
+
+  nav {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  nav li {
+    display: inline-block;
+   padding: 25px 2px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+ 
+    
+  }
+  
+  nav li a {
+ padding: 15px 2px;
+    text-decoration: none;
+    color: #000;
+  }
+  nav li a:hover {
+  
+    border-bottom: 1px solid #000;
+  }
+
+ 
+.grid5container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+  
+  }
+  .grid3container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+  
+  }
+  .grid2container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+  
+  }
+
+
+
+  .footerContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+  
+
+  }
+  .grid-item { 
+    text-align: center;
+ 
+  }
+  
+  .imgeround{ width: 160px; border-radius: 100px;}
+  .posts{ text-align: left;}
+ 
+  footer{ background-color: #000; color: #fff; margin-top: 25px;  padding-bottom: 50px;}
+  footer ul { list-style: none;  }
+  footer ul li{ text-align: left; padding: 5px;  }
+
+.responsiveImg{ width: 100%;}
+
+ 
+  @media (max-width: 850px) { 
+
+    .grid5container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);  
+      
+      }
+      .grid-item { 
+        text-align: center;
+      }
+    }
+ 
+    @media (max-width: 768px) {
+        .Container {
+          padding: 10px;
+          max-width: 100%;  
+        }
+    
+        .grid5container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);  
+          
+          }
+          
+          .grid2container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);  
+          
+          }
+          .grid-item { 
+            text-align: center;
+          }
+          .grid3container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);  
+          
+          }
+
+      }
