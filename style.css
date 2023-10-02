@@ -226,13 +226,13 @@ nav{ background-color: #fff;  }
 
         .topFixed{ display: none; }
         
-        .mobileNav{display: inline;  border-bottom: 1px solid #918F8F;  height:40px;  }
+        .mobileNav{display: inline;  border-bottom: 1px solid #918F8F;  height:45px;  }
         .mobileNav ul{   border-bottom: 1px solid #918F8F;  }
-        .mobileNav ul li{ display: inline-block; height: 25px;  }
+        .mobileNav ul li{ display: inline-block; height: 22px;  }
 
-        .mobileNav ul li:nth-child(1){  }
-        .mobileNav ul li:nth-child(1){ padding:5px;}
-        .mobileNav ul li:nth-child(1) img{ padding: 5px; }
+ 
+        .mobileNav ul li:nth-child(1){ padding:2px;}
+ 
 
         .mobileNav ul li:nth-child(2){ float: right; padding:15px 15px;  border-left: 1px solid #918F8F; width: 35px;}
         .mobileNav ul li:nth-child(2) img{   width: 30px;  }
@@ -260,13 +260,13 @@ nav{ background-color: #fff;  }
             height: 100%;
             background-color: #000;
             color: #fff;
-            top: 0;
+            top: -15px;
             padding: 15px;
             font-size: 20px;
             list-style: none;
         }
         
 .expandMobileNav ul{ list-style: none; }
-.expandMobileNav ul li{  padding: 8px;}
+.expandMobileNav ul li{  padding: 15px;}
 
       }
