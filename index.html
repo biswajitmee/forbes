@@ -6,10 +6,10 @@
     <title>forbesbaltics</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        function toggleNav() {
-            var expandNav = document.querySelector('.expandMobileNav');
-            expandNav.style.display = (expandNav.style.display === 'none' || expandNav.style.display === '') ? 'block' : 'none';
-        }
+ 
+
+
+
     </script>
 </head>
 <body>
@@ -68,17 +68,17 @@
 <div class="mobileNav">
 <ul>
     <li> <img src="https://biswajitmee.github.io/forbes/logo-black.png"> </li>    
-    <li > <img src="https://biswajitmee.github.io/forbes/nav-icon.svg" id="openMobileNav"  onclick="toggleNav()"> </li>
+    <li > <img src="https://biswajitmee.github.io/forbes/nav-icon.svg" id="toggleNav"  onclick="toggleNav()"> </li>
     <li > <img src="https://biswajitmee.github.io/forbes/search.svg"> </li>
 </ul>
 </div>
 
 
-<div class="expandMobileNav">
+<div class="closeMobileNav" id="navContainer">
     <div class="mobileNav">
         <ul>
             <li> <img src="https://biswajitmee.github.io/forbes/Forbes_logo.svg"> </li>    
-            <li > <img src="https://biswajitmee.github.io/forbes/cross.svg" id="openMobileNav"  onclick="toggleNav()"> </li>
+            <li > <img src="images/cross.svg" id="toggleNav"  onclick="toggleNav()"> </li>
    
         </ul>
         </div>
@@ -180,5 +180,11 @@
 
     </footer>
 </body>
- 
+<script>
+    function toggleNav() {
+            const navContainer = document.getElementById('navContainer');
+            navContainer.classList.toggle('expandMobileNav');
+            navContainer.classList.toggle('closeMobileNav');
+        }
+</script>
 </html>
