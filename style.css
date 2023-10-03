@@ -15,6 +15,10 @@ body, h1, ul, li {
 
  .p-25{ padding: 25px;}
  .pt-55{ padding-top: 55px;}
+
+ .pl-50{ padding-left: 50px;}
+
+
  .dk-pt-170{ padding-top: 170px;}
 .heading-content{ text-align: left;}
 nav{ background-color: #fff;  }
