@@ -312,7 +312,7 @@ footer ul li a:hover{color: #fff;}
 
           .footerContainer{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);  
+            grid-template-columns: repeat(1, 1fr);  
           
         
           }
@@ -351,4 +351,6 @@ footer ul li a:hover{color: #fff;}
             .expandMobileNav ul{ list-style: none; }
             .expandMobileNav ul li{  padding: 8px;}
             .bm_nav{ display: inline;}
+            .foo-h{ padding: 11px 1px 10px;}
+           
       }
