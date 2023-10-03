@@ -130,7 +130,7 @@ nav{ background-color: #fff;  }
 
 
 
-  footer a { text-decoration: none;  color: #9e9e9e; }
+  footer a { text-decoration: none;  color: blue; }
   footer a:hover { text-decoration: none; color: #fff;}
 
 .responsiveImg{ width: 100%;}
@@ -334,7 +334,7 @@ footer ul li a:hover{color: #fff;}
         }
 
         .closeMobileNav {
-            transform: translateX(-500px);
+            transform: translateX(-900px);
             position: fixed;
             width: 100%;
             height: 100%;
