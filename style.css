@@ -21,6 +21,9 @@ body, h1, ul, li {
 
  .dk-pt-170{ padding-top: 170px;}
 .heading-content{ text-align: left;}
+.heading-content p{  line-height: 1.3;}
+
+
 nav{ background-color: #fff;  }
 
   .topBar {
