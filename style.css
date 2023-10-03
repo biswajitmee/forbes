@@ -116,9 +116,14 @@ nav{ background-color: #fff;  }
   .imgeround{ width: 160px; border-radius: 100px;}
   .posts{ text-align: left;}
  
-  footer{ background-color: #000; color: #fff; margin-top: 25px;  padding-bottom: 50px;}
+  footer{ background-color: #000; color: #fff; margin-top: 25px;  padding-bottom: 50px;  }
   footer ul { list-style: none;  }
   footer ul li{ text-align: left; padding: 5px;  }
+
+
+
+  footer a { text-decoration: none;  color: #9e9e9e; }
+  footer a:hover { text-decoration: none; color: #fff;}
 
 .responsiveImg{ width: 100%;}
 
